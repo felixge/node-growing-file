@@ -5,5 +5,4 @@ common.lib = __dirname + '/../lib';
 
 common.GrowingFile = require('../index');
 
-common.microtest = require('microtest');
 common.assert = require('assert');
