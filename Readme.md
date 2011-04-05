@@ -19,8 +19,8 @@ This module is still fresh. Try it while it's hot.
     var file = GrowingFile.open('my-growing-file.dat');
     file.pipe(<some writeable stream>);
 
-**Note:** The file does not have to exist yet when invoking this method. An error
-event is emitted if it does not created within the configured `timeout`.
+**Note:** The file does not have to exist yet when invoking this method. An
+`'error'` event is emitted if it is not created within the configured `timeout`.
 
 ## Options
 
