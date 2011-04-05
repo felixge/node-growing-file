@@ -3,8 +3,8 @@
 ## Purpose
 
 Sometimes you need to read from a file that is still being written to. This
-library provides a readable stream for such growing files that keeps reading
-until the file has been idle for a certain time.
+library provides a readable stream that keeps reading until the file has
+been idle for a certain time.
 
 ## Current status
 
