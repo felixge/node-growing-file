@@ -1,6 +1,6 @@
 {
   "name": "limited-file",
-  "description": "A readable file streams for files that are growing.",
+  "description": "A readable file stream for files that are growing.",
   "version": "0.0.0",
   "homepage": "https://github.com/felixge/node-growing-file",
   "repository": {
