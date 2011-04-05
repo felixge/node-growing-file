@@ -28,7 +28,7 @@ This module is still fresh. Try it while it's hot.
 
     var file = GrowingFile.open(path, options);
 
-Where `options` default to:
+Where `options` defaults to:
 
     {
       timeout: 3000,
