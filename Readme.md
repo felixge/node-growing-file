@@ -16,8 +16,26 @@ This module is still fresh. Try it while it's hot.
 
 ## Usage
 
-    var source = GrowingFile.open('my-growing-file.dat');
+    var file = GrowingFile.open('my-growing-file.dat');
     file.pipe(<some writeable stream>);
+
+## Options
+
+`GrowingFile.create` accepts an `options` array.
+
+    var file = GrowingFile.open(path, options);
+
+Where `options` default to:
+
+    {
+      timeout: 3000,
+      interval: 100,
+    }
+
+Time values are given in ms.
+
+* `timeout` determines after what time a file is considered to be done growing.
+* `interval` specifies the frequency at which the file is being polled for changes.
 
 ## License
 
