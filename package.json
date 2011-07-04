@@ -1,7 +1,7 @@
 {
   "name": "growing-file",
   "description": "A readable file stream for files that are growing.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/felixge/node-growing-file",
   "repository": {
     "type": "git",
