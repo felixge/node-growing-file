@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/felixge/node-growing-file.png)](http://travis-ci.org/felixge/node-growing-file)
 # node-growing-file
 
 ## Purpose
