@@ -30,15 +30,19 @@ This module is still fresh. Try it while it's hot.
 
 Where `options` defaults to:
 
-    {
-      timeout: 3000,
-      interval: 100,
-    }
+```json
+{
+    timeout: 3000,
+    interval: 100,
+    startFromEnd: false
+}
+```
 
 Time values are given in ms.
 
 * `timeout` determines after what time a file is considered to be done growing.
 * `interval` specifies the frequency at which the file is being polled for changes.
+* `startFromEnd` starts the read stream from the currently last byte.
 
 ## License
 
