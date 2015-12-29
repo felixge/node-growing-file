@@ -34,7 +34,7 @@ var file = GrowingFile.open(path, options);
 
 Where `options` defaults to:
 
-```json
+```js
 {
     timeout: 3000,
     interval: 100,
